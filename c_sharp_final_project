@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-01-17T09:45:55.792Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" version="13.10.8" etag="yUdbRVghC-lkJcaXgQTp" type="github"><diagram id="RxnU6cFEM3tIQGlcZ9OS">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-17T14:55:16.844Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="lwfJnkJtm-FANFgC2Ls7" version="13.10.8" type="github">
+  <diagram id="RxnU6cFEM3tIQGlcZ9OS" name="Page-1">
+    <mxGraphModel dx="653" dy="318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tbl6nBLRotGBpwCI9VsI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tbl6nBLRotGBpwCI9VsI-1" target="tbl6nBLRotGBpwCI9VsI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl6nBLRotGBpwCI9VsI-1" value="DataSever 將所有包裹資訊傳送到郵差端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="30" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl6nBLRotGBpwCI9VsI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tbl6nBLRotGBpwCI9VsI-2" target="tbl6nBLRotGBpwCI9VsI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl6nBLRotGBpwCI9VsI-2" value="郵差端列出所有&lt;br&gt;包裹資訊" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl6nBLRotGBpwCI9VsI-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tbl6nBLRotGBpwCI9VsI-3" target="tbl6nBLRotGBpwCI9VsI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl6nBLRotGBpwCI9VsI-3" value="郵差端指定郵差送某區域包裹" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl6nBLRotGBpwCI9VsI-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tbl6nBLRotGBpwCI9VsI-4" target="tbl6nBLRotGBpwCI9VsI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl6nBLRotGBpwCI9VsI-4" value="郵差端送出所選擇區域的所有包裹編號代碼給DataSever&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tbl6nBLRotGBpwCI9VsI-5" value="Database Sever 透過LineBot推播給包裹的寄件人&amp;amp;收件人，通知包裹大約何時送達" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
